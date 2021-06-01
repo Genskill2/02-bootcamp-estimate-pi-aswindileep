@@ -15,6 +15,7 @@ def monte_carlo(n):
    i=0
    x=0
    y=0
+   c=0
    dist=0
    while i<n:
          x=random.random()
