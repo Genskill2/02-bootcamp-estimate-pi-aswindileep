@@ -1,13 +1,15 @@
 import math
 import unittest
+import random
 
-def wllis(n):
+def wallis(n):
    i=1
    c=1
    while i<=n:
          c*=(4*i*i)/(4*i*i-1)
          i+=1
-   est=2*creturn est
+   est=2*c
+   return est
    
 def monte_carlo(n):
    i=0
